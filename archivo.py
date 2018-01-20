@@ -1,3 +1,5 @@
+#Programa paraea leer desde un archivo y entregue el número de palabras y letras
+
 def leer_archivo(archivo='archivo.txt'):
     file=open(archivo,'r')
     data=file.readlines()
